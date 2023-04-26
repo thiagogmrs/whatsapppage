@@ -1,0 +1,72 @@
+.introducao-depoimentos-contain{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 15px;
+}
+.introducao-depoimentos{
+    font-size: var(--font-2);
+    color: var(--color-1);
+}
+.keen-slider__slide{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  color: var(--color-1);
+}
+.slide-item{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--color-1);
+  padding: 10px;
+  align-items: center;
+  min-width: 300px;
+  text-align: center;
+}
+.slide-info{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.slide-info h2{
+  margin-bottom: 10px;
+}
+.slide-info p{
+  height: 80px;
+  color: #dcdcdc;
+}
+.slide-item img{
+  max-width: 80px;
+}
+.depoimentos-bg{
+    background: var(--color-3);
+    padding: 40px 0;
+}
+@media (max-width: 800px){
+   .depoimentos-bg{
+    padding: 20px 0;
+  }
+}
+.depoimentos{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.slider-btn{
+    padding: 40px 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.slider-btn a{
+  padding: 10px 20px;
+  background: var(--color-1);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.slider-btn a:hover{
+  background: #dcdcdc;
+}

@@ -1,0 +1,86 @@
+.header-bg{
+   background: var(--color-6);
+}
+.header-wp{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.header-wp a{
+    color: var(--color-1);
+    font-size: 13px;
+}
+.link-site{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.link-site img{
+    max-width: 18px;
+}
+.main{
+    background: var(--color-3);
+}
+.intro-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    color: #fff;  
+    /* background: blue; */
+}
+.titulo{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.titulo h1{
+    line-height: 1.3;
+    letter-spacing: 0.03;
+    font-weight: 400;
+}
+.titulo h1::after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    background: var(--color-2);
+    margin-top: 15px;
+}
+.titulo p{
+    font-size: var(--font-1)    ;
+}
+.botao-whats{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border:  1px solid var(--color-2);
+    max-width: max-content;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: var(--color-2);
+}
+.botao-whats img{
+    max-width: 25px;
+}
+.side-wp-2{
+    display: grid;
+    height: 600px;
+}
+.side-wp-2 img{
+    z-index: 9999;
+    align-self: center;
+}
+.quadrado-wp{
+    background: var(--color-6);
+    height: 600px;
+    width: 350px;
+    justify-self: end;
+    position: absolute;
+}
